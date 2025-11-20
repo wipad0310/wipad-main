@@ -1,0 +1,114 @@
+html {  
+  height: 100%;
+  background-image: url('./res/assets/background.jpg');
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: "Cabin";
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#pic_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#profile_picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px white solid;
+}
+
+
+ul {
+  margin-top: 30px;
+  display:block;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+  list-style-type: none;
+  
+}
+
+li {
+  padding: 10px 0 10px 0;
+  margin: 25px 200px 0 200px;
+  border: 2px white solid;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
+.special {
+  color: rgb(255, 103, 128);
+
+}
+a {
+  margin: auto 0 auto 0;
+  width: 500px;
+  padding: 0 200px 0 200px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+li:hover {
+  border-color: rgb(176, 176, 176);
+  backdrop-filter: blur(0px);
+  transition: 0.2s;
+  
+}
+
+footer {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+#line {
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px white solid;
+}
+
+@media only screen and (max-width: 415px) {
+
+html {
+  height: 100%;
+
+}
+  
+body {
+  color: red;
+  height: 100%;
+}
+
+li {
+  padding: 10px 0 10px 0;
+  margin: 20px 100px 20px 100px;
+}
+
+a {
+  margin: auto 0 auto 0;
+  width: 500px;
+  padding: 0 0px 0 0px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+}
