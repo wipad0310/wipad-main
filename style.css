@@ -15,6 +15,13 @@ h1 {
   text-align: center;
 }
 
+#name_tag {
+  font-family: "Segoe UI";
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 #pic_container {
   display: flex;
   justify-content: center;
@@ -39,18 +46,37 @@ ul {
   
 }
 
-li {
-  background: rgba(255, 255, 255, 0.3);
-  padding: 10px 0 10px 0;
-  margin: 25px 200px 0 200px;
-  border: 2px white solid;
-  border-radius: 10px;
-  backdrop-filter: blur(4px);
+#li_special {
+  background:rgba(255, 137, 216,  0.3);
+}
+
+#li_special:hover {
+  border: 2px rgb(255, 103, 128) solid;
+  background: none;
 }
 .special {
   color: rgb(255, 103, 128);
 
 }
+
+li {
+  padding: 10px 0 10px 0;
+  margin: 25px 200px 0 200px;
+  border: 2px white solid;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+
+li:hover {
+  background: rgba(255, 255, 255, 0);
+  border-color: rgb(176, 176, 176);
+  backdrop-filter: blur(0px);
+  transition: 0.2s;
+  
+}
+
 a {
   margin: auto 0 auto 0;
   width: 500px;
@@ -61,13 +87,7 @@ a {
 
 }
 
-li:hover {
-  background: rgba(255, 255, 255, 0);
-  border-color: rgb(176, 176, 176);
-  backdrop-filter: blur(0px);
-  transition: 0.2s;
-  
-}
+
 
 footer {
   font-size: 13px;
@@ -112,6 +132,4 @@ a {
 
 }
 
-
 }
-
